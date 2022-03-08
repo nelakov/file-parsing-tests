@@ -1,0 +1,11 @@
+{
+  "id": "01",
+  "name": "Jaromir",
+  "lastname": "Jagr",
+  "isCapitan": true,
+  "teams": [
+    "Hawks",
+    "Pinguins",
+    "Devils"
+  ]
+}
