@@ -23,6 +23,9 @@
 *.rar
 *.iml
 
+# Test fixture: keep the parsing-test archive despite *.zip above
+!src/test/resources/files/Archive.zip
+
 # Project gen files
 .idea/
 .allure/
