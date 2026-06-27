@@ -1,7 +1,7 @@
 package demo.qa;
 
 import demo.qa.domain.HockeyPlayer;
-import io.qameta.allure.internal.shadowed.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 
 import java.nio.file.Paths;
@@ -22,4 +22,3 @@ public class SimpleJsonTest {
 
     }
 }
-
