@@ -2,10 +2,5 @@ package demo.qa.domain;
 
 import java.util.List;
 
-public class HockeyPlayer {
-    public String id;
-    public String name;
-    public String lastname;
-    public boolean isCapitan;
-    public List<String> teams;
+public record HockeyPlayer(String id, String name, String lastName, boolean captain, List<String> teams) {
 }

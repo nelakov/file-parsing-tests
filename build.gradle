@@ -1,6 +1,5 @@
 plugins {
-    id 'java-library'
-    id 'application'
+    id 'java'
     id "io.qameta.allure" version "4.1.0"
 }
 
@@ -23,9 +22,7 @@ compileTestJava {
 dependencies {
     testImplementation platform('org.junit:junit-bom:6.1.0')
     testImplementation(
-            'com.codeborne:selenide:7.16.2',
             'org.junit.jupiter:junit-jupiter',
-            'io.qameta.allure:allure-selenide:2.35.3',
             'org.assertj:assertj-core:3.27.7',
             'com.codeborne:pdf-test:2.1.0',
             'com.codeborne:xls-test:1.7.2',
